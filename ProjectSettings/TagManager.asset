@@ -12,7 +12,7 @@ TagManager:
   - Bird
   - Water
   - UI
-  - 
+  - Cloud
   - 
   - 
   - 
@@ -41,6 +41,18 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 114414727
+    locked: 0
+  - name: Middle
+    uniqueID: 2801500443
+    locked: 0
+  - name: Cloud
+    uniqueID: 4281796243
+    locked: 0
+  - name: Foreground
+    uniqueID: 1825207627
     locked: 0
   m_RenderingLayers:
   - Default

@@ -6,6 +6,7 @@ public class LogicScript : MonoBehaviour
 {
 
     public GameObject gameOverScreen;
+    public AudioSource dingSFX;
     public int playerScore = 0;
     public Text gameScore;
 
@@ -14,6 +15,7 @@ public class LogicScript : MonoBehaviour
     {
         playerScore += scoreValue;
         gameScore.text = playerScore.ToString();
+        dingSFX.Play();
     }
 
     public void RestartGame()
