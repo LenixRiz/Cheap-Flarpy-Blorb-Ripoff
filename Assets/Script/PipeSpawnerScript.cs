@@ -7,6 +7,7 @@ public class PipeSpawnerScript : MonoBehaviour
     public float spawnRate = 5;
     private float timer = 0;
     private float heightOffset = 10;
+    public float moveSpeed = 8;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

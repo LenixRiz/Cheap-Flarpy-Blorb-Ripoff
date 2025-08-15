@@ -14,7 +14,7 @@ public class BirdScript : MonoBehaviour
     private bool isWarned = false;
     private float warningCooldown = 1f;
     private float warningTimer = 0f;
-    private bool birdIsAlive = true;
+    public bool birdIsAlive = true;
     private float gameTextTime = 1;
     private float topGameDeadZone = 30;
     private float bottomGameDeadZone = -30;
